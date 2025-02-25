@@ -1,9 +1,125 @@
-<html>
-  <head>
-    <title>Mi sitio</title>
-  </head>
-  <body>
-    <h1>Bienvenido a mi sitio de TryHackMe</h1>
-    <p>Este es el contenido de la página principal.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Sitio Web - TryHackMe</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            width: 80%;
+            max-width: 900px;
+        }
+        .card h2 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a Mi Sitio Web - TryHackMe</h1>
+    <p>Explora mis Write-Ups y más sobre mis proyectos de ciberseguridad</p>
+</header>
+
+<nav>
+    <a href="#blaster">Blaster-Javi</a>
+    <a href="#blue">Blue-Javi</a>
+    <a href="#ice">Ice-Javi</a>
+    <a href="#ignite">Ignite-Javi</a>
+    <a href="#library">Library-Javi</a>
+</nav>
+
+<div class="container">
+    <div class="card" id="blaster">
+        <h2>Blaster-Javi</h2>
+        <p>Explora mi Write-Up de la máquina Blaster de TryHackMe. Descripción breve sobre el proceso de hackeo, los pasos que tomé y los resultados.</p>
+        <a href="https://www.tryhackme.com/room/blaster" target="_blank">Leer más</a>
+    </div>
+
+    <div class="card" id="blue">
+        <h2>Blue-Javi</h2>
+        <p>Descripción sobre la máquina Blue. Análisis y técnicas utilizadas durante el proceso de explotación.</p>
+        <a href="https://www.tryhackme.com/room/blue" target="_blank">Leer más</a>
+    </div>
+
+    <div class="card" id="ice">
+        <h2>Ice-Javi</h2>
+        <p>Información sobre la máquina Ice. Estrategias de explotación y pasos realizados durante el reto.</p>
+        <a href="https://www.tryhackme.com/room/ice" target="_blank">Leer más</a>
+    </div>
+
+    <div class="card" id="ignite">
+        <h2>Ignite-Javi</h2>
+        <p>Un vistazo al reto Ignite y cómo se abordó la explotación de esta máquina.</p>
+        <a href="https://www.tryhackme.com/room/ignite" target="_blank">Leer más</a>
+    </div>
+
+    <div class="card" id="library">
+        <h2>Library-Javi</h2>
+        <p>Una descripción sobre cómo resolví el reto Library de TryHackMe, incluyendo las técnicas empleadas.</p>
+        <a href="https://www.tryhackme.com/room/library" target="_blank">Leer más</a>
+    </div>
+</div>
+
+<footer>
+    <p>© 2025 Javi. Todos los derechos reservados.</p>
+</footer>
+
+</body>
 </html>
