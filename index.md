@@ -1,6 +1,6 @@
-# 🌐 Bienvenido a Mi Sitio Web - TryHackMe
+# Bienvenido a Mi Sitio Web - TryHackMe
 
-Explora mis Write-Ups y proyectos relacionados con ciberseguridad. Descubre los retos que he superado en TryHackMe.
+Explora mis Write-Ups y más sobre mis proyectos de ciberseguridad.
 
 ---
 
@@ -8,42 +8,29 @@ Explora mis Write-Ups y proyectos relacionados con ciberseguridad. Descubre los 
 <tr>
 <td>
 
-## 🚀 **Blaster-Javi** - *Write-Up*
+## **Blaster-Javi**
 
-Explora mi análisis detallado de la máquina **Blaster** en TryHackMe. Aquí comparto todo el proceso de hackeo, desde la fase de reconocimiento hasta la explotación final.
+Explora mi Write-Up de la máquina **Blaster** de TryHackMe. Descripción breve sobre el proceso de hackeo, los pasos que tomé y los resultados.
 
-🔍 **Proceso de Hackeo:**
-- **Reconocimiento inicial**
-- **Escaneo de puertos y servicios**
-- **Explotación y obtención de flags**
-
-[Ver Write-Up de Blaster 👾](Maquina-TMH/Blaster-Javi/THM-Blaster.md)
+[Haz click aquí para ver el Write Up de Blaster 👾](Maquina-TMH/Blaster-Javi/THM-Blaster.md)
 
 </td>
 <td>
 
-## 🔵 **Blue-Javi** - *Write-Up*
+## **Blue-Javi**
 
-Una mirada profunda a la máquina **Blue**. Este Write-Up cubre el análisis exhaustivo, incluyendo la explotación de vulnerabilidades y técnicas utilizadas.
+Descripción sobre la máquina **Blue**. Análisis y técnicas utilizadas durante el proceso de explotación.
 
-🔍 **Técnicas utilizadas:**
-- **Escalado de privilegios**
-- **Explotación de vulnerabilidades específicas**
-
-[Ver Write-Up de Blue 🟦](Maquina-TMH/Blue-Javi/THM-BLUE.md)
+[Haz click aquí para ver el Write Up de Blue 🟦 🟦](Maquina-TMH/Blue-Javi/THM-BLUE.md)
 
 </td>
 <td>
 
-## 🧊 **Ice-Javi** - *Write-Up*
+## **Ice-Javi**
 
-Una descripción completa del reto **Ice** en TryHackMe. Aquí te muestro las estrategias y pasos seguidos para completar la explotación de la máquina.
+Información sobre la máquina **Ice**. Estrategias de explotación y pasos realizados durante el reto.
 
-🔍 **Estrategias utilizadas:**
-- **Reconocimiento avanzado**
-- **Escalado de privilegios y explotación**
-
-[Ver Write-Up de Ice 🧊](Maquina-TMH/Ice-Javi/THM-Ice.md)
+[Haz click aquí para ver el Write Up de Ice 🧊🧊](Maquina-TMH/Ice-Javi/THM-Ice.md)
 
 </td>
 </tr>
@@ -51,26 +38,32 @@ Una descripción completa del reto **Ice** en TryHackMe. Aquí te muestro las es
 <tr>
 <td>
 
-## 🔥 **Ignite-Javi** - *Write-Up*
+## **Ignite-Javi**
 
-Este Write-Up cubre cómo superé el reto de la máquina **Ignite** en TryHackMe. Un análisis de la explotación de vulnerabilidades y la resolución de la máquina.
+Un vistazo al reto **Ignite** y cómo se abordó la explotación de esta máquina.
 
-🔍 **Pasos realizados:**
-- **Exploración inicial**
-- **Explotación de vulnerabilidades específicas**
-- **Obtención de flags**
-
-[Ver Write-Up de Ignite 🔥](Maquina-TMH/Ignite-Javi/THM-Ignite.md)
+[Haz click aquí para ver el Write Up de Ignite 🔥🔥](Maquina-TMH/Ignite-Javi/THM-Ignite.md)
 
 </td>
 <td>
 
-## 📚 **Library-Javi** - *Write-Up*
+## **Library-Javi**
 
-Análisis detallado del reto **Library** en TryHackMe. Te muestro cómo resolví la máquina utilizando diversas técnicas de hacking.
+Una descripción sobre cómo resolví el reto **Library** de TryHackMe, incluyendo las técnicas empleadas.
 
-🔍 **Técnicas empleadas:**
-- **Explotación de servicios**
-- **Explotación de vulnerabilidades**
+[Haz click aquí para ver el Write Up de Library 📚📚](Maquina-TMH/Library-Javi/THM-Library.md)
 
-[Ver Write-Up de Library 📚](Maquina-TMH/Library-Javi/THM-Libr
+</td>
+<td>
+
+## **Techsupp0rt1-Javi**
+
+[Haz click aquí para ver el Write Up de Techsupport1 📚📚](Maquina-TMH/Techsupport1-Javi/THM-Techsupp0rt1.md)
+
+</td>
+</tr>
+</table>
+
+---
+
+### © 2025 Javi. Todos los derechos reservados.
