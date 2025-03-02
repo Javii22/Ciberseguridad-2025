@@ -16,7 +16,7 @@ Explora mi Write-Up de la máquina Blaster de TryHackMe. Descripción breve sobr
 
 Descripción sobre la máquina Blue. Análisis y técnicas utilizadas durante el proceso de explotación.
 
-[Haz click aqui para ver el Write Up de Blue 🧊🧊/](Maquina-TMH/Blue-Javi/THM-BLUE.md)
+[Haz click aqui para ver el Write Up de Blue 🟦 🟦/](Maquina-TMH/Blue-Javi/THM-BLUE.md)
 
 ---
 
@@ -24,7 +24,7 @@ Descripción sobre la máquina Blue. Análisis y técnicas utilizadas durante el
 
 Información sobre la máquina Ice. Estrategias de explotación y pasos realizados durante el reto.
 
-[Máquinas de Pentesting/](Maquina-TMH/Ice-Javi/THM-Ice.md)
+[Haz click aqui para ver el Write Up de Ice 🧊🧊/](Maquina-TMH/Ice-Javi/THM-Ice.md)
 
 ---
 
@@ -32,7 +32,7 @@ Información sobre la máquina Ice. Estrategias de explotación y pasos realizad
 
 Un vistazo al reto Ignite y cómo se abordó la explotación de esta máquina.
 
-[Máquinas de Pentesting/](Maquina-TMH/Ignite-Javi/THM-Ignite.md)
+[Haz click aqui para ver el Write Up de Ignite 🔥🔥/](Maquina-TMH/Ignite-Javi/THM-Ignite.md)
 
 ---
 
@@ -40,7 +40,7 @@ Un vistazo al reto Ignite y cómo se abordó la explotación de esta máquina.
 
 Una descripción sobre cómo resolví el reto Library de TryHackMe, incluyendo las técnicas empleadas.
 
-[Máquinas de Pentesting/](Maquina-TMH/Library-Javi/THM-Library.md)
+[Haz click aqui para ver el Write Up de Blue 📚📚/](Maquina-TMH/Library-Javi/THM-Library.md)
 
 ---
 
