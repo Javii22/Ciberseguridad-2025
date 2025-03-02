@@ -15,7 +15,7 @@ Explora mi Write-Up de la máquina Blaster de TryHackMe. Descripción breve sobr
 
 Descripción sobre la máquina Blue. Análisis y técnicas utilizadas durante el proceso de explotación.
 
-[Máquinas de Pentesting/](Maquina-TMH/Blue-Javi/THM-Blue.md)
+[Máquinas de Pentesting/](Maquina-TMH/Blue-Javi/THM-BLUE.md)
 
 ---
 
