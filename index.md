@@ -46,6 +46,6 @@ Una descripción sobre cómo resolví el reto Library de TryHackMe, incluyendo l
 
 ## Techsupp0rt1-Javi
 
-[Haz click aqui para ver el Write Up de Techsupport1 📚📚/](Maquina-TMH/Techsupp0rt1-Javi/THM-Techsupp0rt1.md)
+[Haz click aqui para ver el Write Up de Techsupport1 📚📚/](Maquina-TMH/Techsupport1-Javi/THM-Techsupp0rt1.md)
 
 ### © 2025 Javi. Todos los derechos reservados.
