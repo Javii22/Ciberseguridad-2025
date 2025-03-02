@@ -8,6 +8,8 @@ Explora mis Write-Ups y más sobre mis proyectos de ciberseguridad.
 
 Explora mi Write-Up de la máquina Blaster de TryHackMe. Descripción breve sobre el proceso de hackeo, los pasos que tomé y los resultados.
 
+📂 [Máquinas de Pentesting/](Maquina-THM/Blaster-Javi)
+
 [Leer más](THM-Blaster.md)
 
 ---
