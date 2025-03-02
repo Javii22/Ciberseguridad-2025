@@ -7,6 +7,7 @@ Explora mis Write-Ups y más sobre mis proyectos de ciberseguridad.
 ## Blaster-Javi
 
 Explora mi Write-Up de la máquina Blaster de TryHackMe. Descripción breve sobre el proceso de hackeo, los pasos que tomé y los resultados.
+
 [Haz click aqui para ver el Write Up de Blaster 👾/](Maquina-TMH/Blaster-Javi/THM-Blaster.md)
 
 ---
