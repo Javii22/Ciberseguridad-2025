@@ -7,7 +7,7 @@ Explora mis Write-Ups y más sobre mis proyectos de ciberseguridad.
 ## Blaster-Javi
 
 Explora mi Write-Up de la máquina Blaster de TryHackMe. Descripción breve sobre el proceso de hackeo, los pasos que tomé y los resultados.
-[Máquinas de Pentesting/](Maquina-TMH/Blaster-Javi/THM-Blaster.md)
+[Haz click aqui para ver el Write Up de Blaster 👾/](Maquina-TMH/Blaster-Javi/THM-Blaster.md)
 
 ---
 
@@ -15,7 +15,7 @@ Explora mi Write-Up de la máquina Blaster de TryHackMe. Descripción breve sobr
 
 Descripción sobre la máquina Blue. Análisis y técnicas utilizadas durante el proceso de explotación.
 
-[Máquinas de Pentesting/](Maquina-TMH/Blue-Javi/THM-BLUE.md)
+[Haz click aqui para ver el Write Up de Blue 🧊🧊/](Maquina-TMH/Blue-Javi/THM-BLUE.md)
 
 ---
 
