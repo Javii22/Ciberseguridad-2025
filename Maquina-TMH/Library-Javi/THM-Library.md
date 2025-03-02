@@ -62,7 +62,7 @@ Dado que bak.py tiene permisos para ejecutarse con sudo NOPASSWD, Vamos a elimí
 
 ## Paso 8 - Ejecutamos el Bak.py y Buscamos la ultima Flag.
 
-Como dato la terminal es un mala para negavar
+Como dato la terminal es un poco mala de usar.
 
 ![](Imagenes/10.png)
 
