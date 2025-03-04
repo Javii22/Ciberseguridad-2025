@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explotación de MS17-010 (EternalBlue) en THM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center">Tutorial: Explotación de la vulnerabilidad MS17-010 (EternalBlue) en THM</h1>
+        <hr>
+
+        <h2>Paso 1: Escaneo de puertos con Nmap</h2>
+        <p>Ejecutamos el siguiente comando para escanear los servicios en la máquina objetivo:</p>
+        <img src="Imagenes/2.png" class="img-fluid" alt="Escaneo de puertos con Nmap">
+        <p><strong>Nota:</strong> EternalBlue es una vulnerabilidad en Microsoft Windows explotada por la NSA antes de ser revelada públicamente. Permite a un atacante obtener acceso remoto a computadoras vulnerables.</p>
+        <p>En el escaneo, encontramos <strong>3 puertos abiertos por debajo de 1000</strong>.</p>
+        <img src="Imagenes/3.png" class="img-fluid" alt="Puertos abiertos">
+        <hr>
+
+        <h2>Paso 2: Buscar y seleccionar el exploit en Metasploit</h2>
+        <p>Ejecutamos <code>msfconsole</code> y buscamos el exploit para la vulnerabilidad MS17-010 con:</p>
+        <img src="Imagenes/27.png" class="img-fluid" alt="Búsqueda de exploit">
+        <p>La ruta completa del código del exploit es:</p>
+        <img src="Imagenes/1.png" class="img-fluid" alt="Ruta del exploit">
+        <p>Seleccionamos el exploit y configuramos el payload:</p>
+        <img src="Imagenes/4.png" class="img-fluid" alt="Configuración del payload">
+        <hr>
+
+        <h2>Paso 3: Configurar parámetros y ejecutar el exploit</h2>
+        <p>Definimos la IP de la máquina víctima:</p>
+        <img src="Imagenes/6.png" class="img-fluid" alt="Definición de IP de la víctima">
+        <p>Definimos nuestra IP en la VPN de THM:</p>
+        <img src="Imagenes/10.png" class="img-fluid" alt="IP en VPN">
+        <p>Ejecutamos el exploit:</p>
+        <img src="Imagenes/11.png" class="img-fluid" alt="Ejecutar exploit">
+        <p>Una vez dentro de la máquina víctima, verificamos la IP con:</p>
+        <img src="Imagenes/12.png" class="img-fluid" alt="Verificación de IP">
+        <p>Colocamos la sesión en segundo plano:</p>
+        <img src="Imagenes/13.png" class="img-fluid" alt="Sesión en segundo plano">
+        <p>Revisamos las sesiones activas:</p>
+        <img src="Imagenes/16.png" class="img-fluid" alt="Sesiones activas">
+        <p>Ingresamos a Meterpreter:</p>
+        <img src="Imagenes/18.png" class="img-fluid" alt="Ingresar a Meterpreter">
+        <p>Ahora que tenemos privilegios elevados, ejecutamos:</p>
+        <img src="Imagenes/19.png" class="img-fluid" alt="Privilegios elevados">
+        <p>Copiamos el hash y lo crackeamos en <a href="https://crackstation.net" target="_blank">Crackstation.net</a>.</p>
+        <img src="Imagenes/20.png" class="img-fluid" alt="Crackstation">
+        <p><strong>Contraseña obtenida:</strong> <code>alqfna22</code></p>
+        <hr>
+
+        <h2>Paso 4: Obtención de las flags</h2>
+        
+        <h3>Primera Flag</h3>
+        <p>Nos movemos a la raíz del sistema:</p>
+        <img src="Imagenes/21.png" class="img-fluid" alt="Moverse a la raíz">
+        <p>Leemos la flag:</p>
+        <p><strong>Flag obtenida:</strong> 1/3</p>
+        <hr>
+
+        <h3>Segunda Flag</h3>
+        <p>Nos dirigimos a la nueva ruta indicada:</p>
+        <img src="Imagenes/22.png" class="img-fluid" alt="Segunda flag">
+        <p>Leemos la flag:</p>
+        <p><strong>Flag obtenida:</strong> 2/3</p>
+        <hr>
+
+        <h3>Tercera Flag</h3>
+        <p>Vamos a la ruta indicada:</p>
+        <img src="Imagenes/24.png" class="img-fluid" alt="Tercera flag">
+        <p>Leemos la flag:</p>
+        <p><strong>Flag obtenida:</strong> 3/3</p>
+        <hr>
+
+        <h2>Conclusión</h2>
+        <p>Hemos explotado la vulnerabilidad MS17-010 (EternalBlue) con éxito, obteniendo acceso a la máquina víctima y extrayendo las flags requeridas.</p>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>📝 &copy; 2025 Javi. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
