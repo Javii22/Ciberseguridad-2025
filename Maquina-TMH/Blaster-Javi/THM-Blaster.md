@@ -112,4 +112,5 @@ Comando en Metasploit:
 Captura:
 
 El contenido de root.txt: THM{COIN_OPERATED_EXPLOITATION}.
+
 ![](Imagenes/18.png)
