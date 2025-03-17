@@ -108,9 +108,5 @@
  ![](Imagenes/17.png)
  
  15. Obtener la bandera de root Finalmente, accedí al archivo root.txt en el escritorio del usuario Administrator y obtuve la bandera de root.
- 
- Captura:
- 
- El contenido de root.txt: THM{COIN_OPERATED_EXPLOITATION}.
- 
+
  ![](Imagenes/18.png)
