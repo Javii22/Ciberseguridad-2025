@@ -2,7 +2,7 @@
  
  ---
 
- ### **Paso 1: Escaneo de puertos con Nmap**
+ **Paso 1: Escaneo de puertos con Nmap**
  
  Ejecutamos el siguiente comando para escanear los servicios en la máquina objetivo:
  
