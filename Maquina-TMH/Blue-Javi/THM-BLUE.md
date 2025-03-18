@@ -16,7 +16,7 @@
  
  ---
  
- ### **Paso 2: Buscar y seleccionar el exploit en Metasploit**
+ **Paso 2: Buscar y seleccionar el exploit en Metasploit**
  
  Ejecutamos **msfconsole** y buscamos el exploit para la vulnerabilidad MS17-010 con:
  
@@ -36,7 +36,7 @@
  
  ---
  
- ### **Paso 3: Configurar parámetros y ejecutar el exploit**
+  **Paso 3: Configurar parámetros y ejecutar el exploit**
  
  Definimos la IP de la máquina víctima:
  
@@ -80,9 +80,9 @@
  
  ---
  
- ### **Paso 4: Obtención de las flags**
+ **Paso 4: Obtención de las flags**
  
- #### **Primera Flag**
+ **Primera Flag**
  
  Nos movemos a la raíz del sistema:
  
@@ -97,7 +97,7 @@
  
  ---
  
- #### **Segunda Flag**
+**Segunda Flag**
  
  Nos dirigimos a la nueva ruta indicada:
  
@@ -111,7 +111,7 @@
  
  ---
  
- #### **Tercera Flag**
+ **Tercera Flag**
  
  Vamos a la ruta indicada:
  
@@ -125,6 +125,6 @@
  
  ---
  
- ### **Conclusión**
+**Conclusión**
  
  Hemos completado la explotación de la máquina **BLUE** en TryHackMe, utilizando **EternalBlue (MS17-010)** para obtener acceso, escalar privilegios y extraer información clave.
